@@ -1,9 +1,9 @@
 # coding: utf-8
 module Fluent
   class JvmInput < Fluent::Input
-    Fluent::Plugin.register_input('jmx', self)
+    Fluent::Plugin.register_input('jvm', self)
 
-    config_param :tag,        :string,  default: 'jmx'
+    config_param :tag,        :string,  default: 'jvm'
     config_param :interval,   :integer, default: 60
     config_param :url,        :string,  default: 'http://127.0.0.1:8778/jolokia'
     config_param :mbean,      :string,  default: 'java.lang:type=Memory'
