@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["github@homesoc.tokyo"]
   spec.summary       = "a fluent plugin"
   spec.description   = "jolokia fluent plugin."
-  spec.homepage      = "https://github.com/FoxBoxsnet/fluent-plugin-jvm"
+  spec.homepage      = "https://github.com/tokyohomesoc/fluent-plugin-jvm"
   spec.license       = "Apache-2.0"
   
   spec.files         = `git ls-files -z`.split("\x0").reject do |f|
